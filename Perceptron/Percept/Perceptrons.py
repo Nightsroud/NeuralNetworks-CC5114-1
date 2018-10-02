@@ -4,9 +4,9 @@ class Perceptron(object):
         self.bias = bias
 
     def feed(self, inputs):
-        assert inputs.length == self.weight.length
+        assert len(inputs) == len(self.weight)
         r = 0
-        for x in range(inputs.length):
+        for x in range(len(inputs)):
             r += self.weight[x]*inputs[x]
         r+= self.bias
         return r > 0
@@ -24,7 +24,7 @@ class pOR(Perceptron):
 class pNAND(Perceptron):
 
     def __init__(self):
-        Perceptron.__init__(self, [-2.0, -2.0], 3)
+        Perceptron.__init__(self, [2.0, 2.0], 3)
 
 class pSum(object):
     sNAND = pNAND
@@ -40,3 +40,5 @@ class pSum(object):
         result = self.sNAND.feed([result2, result3])
         return (result, carry)
 
+tAnd = pAND()
+print(tAnd.feed([1.0, 1.0, 1.0]))
