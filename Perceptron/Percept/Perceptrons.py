@@ -40,5 +40,5 @@ class pSum(object):
         result = self.sNAND.feed([result2, result3])
         return (result, carry)
 
-tAnd = pAND()
-print(tAnd.feed([1.0, 1.0, 1.0]))
+#tAnd = pAND()
+#print(tAnd.feed([1.0, 1.0, 1.0]))
