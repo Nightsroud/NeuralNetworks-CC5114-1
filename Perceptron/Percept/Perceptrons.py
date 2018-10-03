@@ -1,3 +1,5 @@
+import random
+
 class Perceptron(object):
     def __init__(self, weights, bias):
         self.weight = weights
@@ -10,6 +12,20 @@ class Perceptron(object):
             r += self.weight[x]*inputs[x]
         r+= self.bias
         return r > 0
+
+    # Entrena el preceptron
+    def pretraining(self, inputs, desiredOutput):
+        realOutput = self.feed(inputs)
+        diff = desiredOutput - realOutput
+        lr = 0.1
+        weightN =[]
+        for N in range(len(inputs)):
+            weightN.append(self.weight[N] + (lr*inputs[N]*diff))
+        self.weight = weightN
+        biasN = self.bias + (lr*diff)
+        self.bias = biasN
+
+
 
 class pAND(Perceptron):
 
@@ -39,6 +55,8 @@ class pSum(object):
         result3 = self.sNAND.feed([result1, self.x2])
         result = self.sNAND.feed([result2, result3])
         return (result, carry)
+
+
 
 #tAnd = pAND()
 #print(tAnd.feed([1.0, 1.0, 1.0]))
