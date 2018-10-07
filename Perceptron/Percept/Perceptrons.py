@@ -21,12 +21,9 @@ class Perceptron(object):
         realOutput = self.feed(inputs)
         diff = desiredOutput - realOutput
         lr = 0.1
-        weightN =[]
         for N in range(len(inputs)):
-            weightN.append(self.weight[N] + (lr*inputs[N]*diff))
-        self.weight = weightN
-        biasN = self.bias + (lr*diff)
-        self.bias = biasN
+            self.weight[N] += (lr*float(inputs[N])*diff)
+        self.bias += (lr*diff)
 
 
 
