@@ -1,10 +1,13 @@
 import random
 
 class Perceptron(object):
+
+    # Constructor del perceptron
     def __init__(self, weights, bias):
         self.weight = weights
         self.bias = bias
 
+    # Alimenta al perceptron una catnidad de inputs iguales a su peso
     def feed(self, inputs):
         assert len(inputs) == len(self.weight)
         r = 0
@@ -13,7 +16,7 @@ class Perceptron(object):
         r+= self.bias
         return r > 0
 
-    # Entrena el preceptron
+    # Entrena el preceptron (1 iteracion)
     def pretraining(self, inputs, desiredOutput):
         realOutput = self.feed(inputs)
         diff = desiredOutput - realOutput
