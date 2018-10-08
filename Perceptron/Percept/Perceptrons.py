@@ -30,17 +30,17 @@ class Perceptron(object):
 class pAND(Perceptron):
 
     def __init__(self):
-        Perceptron.__init__(self, [1.0, 1.0], -1.5)
+        super().__init__([1.0, 1.0], -1.5)
 
 class pOR(Perceptron):
 
     def __init__(self):
-        Perceptron.__init__(self, [1.0, 1.0], -0.5)
+        super().__init__([1.0, 1.0], -0.5)
 
 class pNAND(Perceptron):
 
     def __init__(self):
-        Perceptron.__init__(self, [2.0, 2.0], 3)
+        super().__init__([2.0, 2.0], 3)
 
 class pSum(object):
     sNAND = pNAND
