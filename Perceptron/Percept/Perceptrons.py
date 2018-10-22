@@ -40,7 +40,7 @@ class pOR(Perceptron):
 class pNAND(Perceptron):
 
     def __init__(self):
-        super().__init__([2.0, 2.0], 3)
+        super().__init__([-2.0, -2.0], 3)
 
 class pSum(object):
     sNAND = pNAND

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8abbfa9-be6f-4c27-82f1-15a3ebbdce79" name="Default" comment="Clase 03 Training:&#10;Funcion de Entrenamiento y Plot terminadas.&#10;Test no formal realizado.">
-      <change afterPath="$PROJECT_DIR$/Percept/Sigmoid.py" afterDir="false" />
+    <list default="true" id="f8abbfa9-be6f-4c27-82f1-15a3ebbdce79" name="Default" comment="Clase 04 Sigmoid:&#10;Funcion de curva de aprendizaje realizada por hard code, clase Sigmoid terminada, sub clases and or y nand en progreso.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/NeuralLayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/NeuralNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/Neuron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/XorNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Percept/Grafico.py" beforeDir="false" afterPath="$PROJECT_DIR$/Percept/Grafico.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Percept/Perceptrons.py" beforeDir="false" afterPath="$PROJECT_DIR$/Percept/Perceptrons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Percept/Sigmoid.py" beforeDir="false" afterPath="$PROJECT_DIR$/Percept/Sigmoid.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,45 +20,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RedesNeuronales$Grafico.coverage" NAME="Grafico Coverage Results" MODIFIED="1539034530992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Percept" />
+    <SUITE FILE_PATH="coverage/RedesNeuronales$Grafico.coverage" NAME="Grafico Coverage Results" MODIFIED="1539114462050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Percept" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$Perceptrons.coverage" NAME="Perceptrons Coverage Results" MODIFIED="1538497131552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Percept" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$Unittests_in_Test_py.coverage" NAME="Unittests in Test.py Coverage Results" MODIFIED="1538497886263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/RedesNeuronales$XorNetwork.coverage" NAME="XorNetwork Coverage Results" MODIFIED="1540249418043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1481677083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="388" />
-          <entry key="py" value="4427" />
-          <entry key="txt" value="155" />
+          <entry key="Python Console" value="778" />
+          <entry key="dummy" value="31" />
+          <entry key="py" value="11468" />
+          <entry key="txt" value="300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="155" />
-          <entry key="Python" value="4815" />
+          <entry key="PLAIN_TEXT" value="331" />
+          <entry key="Python" value="12246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -60,40 +86,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Percept/Perceptrons.py">
+        <entry file="file://$PROJECT_DIR$/Network/NeuralNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="153">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <marker date="1540241109156" expanded="true" signature="65:66" ph="..." />
+                <marker date="1540241109156" expanded="true" signature="377:383" ph="..." />
+                <marker date="1540241109156" expanded="true" signature="1025:1186" ph="..." />
+                <marker date="1540241109156" expanded="true" signature="1026:1032" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Percept/Sigmoid.py">
+        <entry file="file://$PROJECT_DIR$/Network/NeuralLayer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="499">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
-                <marker date="1539039922062" expanded="true" signature="129:175" ph="..." />
-                <marker date="1539039922062" expanded="true" signature="169:170" ph="..." />
-                <marker date="1539039922062" expanded="true" signature="433:434" ph="..." />
-                <marker date="1539039922062" expanded="true" signature="770:771" ph="..." />
-                <marker date="1539039922062" expanded="true" signature="770:776" ph="..." />
-                <marker date="1539039922062" expanded="true" signature="1109:1110" ph="..." />
-                <marker date="1539039922062" expanded="true" signature="1109:1111" ph="..." />
+                <marker date="1540241109010" expanded="true" signature="54:55" ph="..." />
+                <marker date="1540241109010" expanded="true" signature="99:266" ph="..." />
+                <marker date="1540241109010" expanded="true" signature="1188:1197" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Percept/Grafico.py">
+        <entry file="file://$PROJECT_DIR$/Network/Neuron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-801">
-              <caret selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1540249417173" expanded="true" signature="73:74" ph="..." />
+                <marker date="1540249417173" expanded="true" signature="980:1016" ph="..." />
+                <marker date="1540249417173" expanded="true" signature="1344:1350" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Network/XorNetwork.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1540248809493" expanded="true" signature="100:101" ph="..." />
+                <marker date="1540248809493" expanded="true" signature="100:106" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,9 +173,17 @@
       <list>
         <option value="$PROJECT_DIR$/Perceptrons.py" />
         <option value="$PROJECT_DIR$/Tests/Test.py" />
-        <option value="$PROJECT_DIR$/Percept/Grafico.py" />
         <option value="$PROJECT_DIR$/Percept/Perceptrons.py" />
+        <option value="$PROJECT_DIR$/Percept/NeuralNetwork.py" />
+        <option value="$PROJECT_DIR$/Percept/NeuralLayer.py" />
+        <option value="$PROJECT_DIR$/Percept/Neuron.py" />
+        <option value="$PROJECT_DIR$/Percept/Grafico.py" />
         <option value="$PROJECT_DIR$/Percept/Sigmoid.py" />
+        <option value="$PROJECT_DIR$/Network/Training.py" />
+        <option value="$PROJECT_DIR$/Network/NeuralLayer.py" />
+        <option value="$PROJECT_DIR$/Network/NeuralNetwork.py" />
+        <option value="$PROJECT_DIR$/Network/XorNetwork.py" />
+        <option value="$PROJECT_DIR$/Network/Neuron.py" />
       </list>
     </option>
   </component>
@@ -142,8 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="361" />
-    <option name="y" value="97" />
+    <option name="x" value="232" />
+    <option name="y" value="83" />
     <option name="width" value="937" />
     <option name="height" value="637" />
   </component>
@@ -160,6 +212,11 @@
             <path>
               <item name="RedesNeuronales" type="b2602c69:ProjectViewProjectNode" />
               <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RedesNeuronales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
+              <item name="Network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RedesNeuronales" type="b2602c69:ProjectViewProjectNode" />
@@ -185,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NICOLAS\PycharmProjects\Perceptron\Network" />
       <recent name="C:\Users\NICOLAS\PycharmProjects\Perceptron\Percept" />
     </key>
   </component>
@@ -200,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Grafico">
+  <component name="RunManager" selected="Python.XorNetwork">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="Perceptron" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,6 +341,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Percept/Perceptrons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XorNetwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RedesNeuronales" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network/XorNetwork.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,9 +505,11 @@
       <item itemvalue="Python.Perceptrons" />
       <item itemvalue="Python tests.Unittests in Test.py" />
       <item itemvalue="Python.Grafico" />
+      <item itemvalue="Python.XorNetwork" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.XorNetwork" />
         <item itemvalue="Python.Grafico" />
         <item itemvalue="Python tests.Unittests in Test.py" />
       </list>
@@ -486,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538939096809</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clase 04 Sigmoid:&#10;Funcion de curva de aprendizaje realizada por hard code, clase Sigmoid terminada, sub clases and or y nand en progreso.">
+      <created>1539040325006</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539040325006</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -519,27 +608,27 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2881997" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31089258" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49016643" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32923076" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" visible="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.48789713" weight="0.3276923" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49848714" weight="0.3276923" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5098336" side_tool="true" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.48108926" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" weight="0.3276923" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287037" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.28214827" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.28214827" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,9 +644,17 @@
     <MESSAGE value="Clase 03 Training" />
     <MESSAGE value="Clase 03 Training:&#10;Funcion de Entrenamiento y Plot completadas pero no testeadas." />
     <MESSAGE value="Clase 03 Training:&#10;Funcion de Entrenamiento y Plot terminadas.&#10;Test no formal realizado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 03 Training:&#10;Funcion de Entrenamiento y Plot terminadas.&#10;Test no formal realizado." />
+    <MESSAGE value="Clase 04 Sigmoid:&#10;Funcion de curva de aprendizaje realizada por hard code, clase Sigmoid terminada, sub clases and or y nand en progreso." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 04 Sigmoid:&#10;Funcion de curva de aprendizaje realizada por hard code, clase Sigmoid terminada, sub clases and or y nand en progreso." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="744" selection-start-line="744" selection-end-line="744" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -568,43 +665,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
+    <entry file="file://$PROJECT_DIR$/Percept/Grafico.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="744" selection-start-line="744" selection-end-line="744" />
+        <state relative-caret-position="153">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1539203108504" expanded="true" signature="102:700" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Percept/Sigmoid.py">
+    <entry file="file://$PROJECT_DIR$/Network/Training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1539039922062" expanded="true" signature="129:175" ph="..." />
-            <marker date="1539039922062" expanded="true" signature="169:170" ph="..." />
-            <marker date="1539039922062" expanded="true" signature="433:434" ph="..." />
-            <marker date="1539039922062" expanded="true" signature="770:771" ph="..." />
-            <marker date="1539039922062" expanded="true" signature="770:776" ph="..." />
-            <marker date="1539039922062" expanded="true" signature="1109:1110" ph="..." />
-            <marker date="1539039922062" expanded="true" signature="1109:1111" ph="..." />
-          </folding>
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Percept/Perceptrons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="38" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Percept/Grafico.py">
+    <entry file="file://$PROJECT_DIR$/Percept/Sigmoid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-801">
-          <caret selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+            <marker date="1539116398221" expanded="true" signature="141:187" ph="..." />
+            <marker date="1539116398221" expanded="true" signature="181:182" ph="..." />
+            <marker date="1539116398221" expanded="true" signature="445:446" ph="..." />
+            <marker date="1539116398221" expanded="true" signature="932:933" ph="..." />
+            <marker date="1539116398221" expanded="true" signature="932:938" ph="..." />
+            <marker date="1539116398221" expanded="true" signature="1417:1418" ph="..." />
+            <marker date="1539116398221" expanded="true" signature="1417:1419" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network/NeuralLayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <marker date="1540241109010" expanded="true" signature="54:55" ph="..." />
+            <marker date="1540241109010" expanded="true" signature="99:266" ph="..." />
+            <marker date="1540241109010" expanded="true" signature="1188:1197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network/XorNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1540248809493" expanded="true" signature="100:101" ph="..." />
+            <marker date="1540248809493" expanded="true" signature="100:106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network/NeuralNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <marker date="1540241109156" expanded="true" signature="65:66" ph="..." />
+            <marker date="1540241109156" expanded="true" signature="377:383" ph="..." />
+            <marker date="1540241109156" expanded="true" signature="1025:1186" ph="..." />
+            <marker date="1540241109156" expanded="true" signature="1026:1032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network/Neuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1540249417173" expanded="true" signature="73:74" ph="..." />
+            <marker date="1540249417173" expanded="true" signature="980:1016" ph="..." />
+            <marker date="1540249417173" expanded="true" signature="1344:1350" ph="..." />
           </folding>
         </state>
       </provider>

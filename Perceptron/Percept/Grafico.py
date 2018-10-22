@@ -2,30 +2,40 @@ from Percept.Perceptrons import *
 from random import *
 import matplotlib.pyplot as plt
 
+class Traning:
+
+    def __init__(self, perceptron, trainInputs):
+        self.perceptron = perceptron
+        self.trainInputs = trainInputs
+        self.iterTraining(self.perceptron, self.trainInputs)
+
+    # dar desired output como una lista de valores junto con la lista de inputs a entrenar.
+    def iterTraining(self, perceptron, trainInputs):
+        for i in range(len(trainInputs)):
+            if 2*trainInputs[i][0] + 5 < trainInputs[i][1]:
+                perceptron.pretraining(trainInputs[i], 1)
+            else:
+                perceptron.pretraining(trainInputs[i], 0)
+        return perceptron
+
 
 class Graficar:
     # @Param Iter: Numero de iteraciones para el entrenamiento
     # @Param Pnts: Numero de puntos a graficar
     # Constructor de clase Graficar
-    def __init__(self, Iter, Pnts):
+    def __init__(self, Iter, cantPuntos):
         self.perceptron = Perceptron([uniform(-2, 2), uniform(-2, 2)], uniform(-2, 2))
-        self.perceptronTrainingAndPlot(self.generarInputs(Iter), Pnts)
+        self.train = Traning(self.perceptron, self.generarInputs(Iter))
+        self.perceptPlot(self.generarInputs(cantPuntos))
 
     # @Param N: Numero de pares de inputs
     # Funcion auxiliar que genera un numero N de pares de inputs
-    def generarInputs(self, N):
+    def generarInputs(self, Iter):
         inputs = []
-        for i in range(N):
+        for i in range(Iter):
             par = [uniform(0,100), uniform(0,100)]
             inputs.append(par)
         return inputs
-
-    # @Param inputs: Lista de pares de inputs
-    # @Param Pnts: Cantidad de puntos a plotear
-    # Entrenamiento del perceptron con la lista de pares de inputs.
-    def perceptronTrainingAndPlot(self, inputs, Pnts):
-        self.perceptronTraining(self.perceptron, inputs)
-        self.perceptPlot(self.generarInputs(Pnts))
 
     # @Param inputs: Lista de pares de inputs a graficar
     # Genera un grafico con los puntos de la lista de acuerdo al entrenamiento del perceptron.
@@ -41,12 +51,6 @@ class Graficar:
                 plt.plot(inputs[j][0], inputs[j][1], 'ro')
         plt.show()
 
-    def perceptronTraining(self, perceptron, inputs):
-        for i in range(len(inputs)):
-            if 2*inputs[i][0] + 5 < inputs[i][1]:
-                perceptron.pretraining(inputs[i], 1)
-            else:
-                perceptron.pretraining(inputs[i], 0)
 
 class Curva:
 
@@ -89,5 +93,5 @@ class Curva:
                 perceptron.pretraining(inputs[i], 0)
 
     # Falta curva de tendencias, hits vs miss, cuantos puntos fueron graficados bien de acuerdo a la cantidad de entrenamiento.
-# Graficar(10000, 100)
-Curva(200, 100, Perceptron([uniform(-2, 2), uniform(-2, 2)], uniform(-2, 2)), 20)
+Graficar(10000, 100)
+# Curva(200, 100, Perceptron([uniform(-2, 2), uniform(-2, 2)], uniform(-2, 2)), 20)
