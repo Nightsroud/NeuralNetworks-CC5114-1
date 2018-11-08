@@ -3,15 +3,15 @@ from random import *
 
 class Neuron(object):
 
-    def __init__(self, nInputs, output=0, delta=0):
+    def __init__(self, nInputs, lr=0.5):
         self.weight = []
-        self.bias = uniform(-3, 3)
+        self.bias = uniform(-2, 2)
         for i in range(nInputs):
-            self.weight.append(uniform(-3, 3))
-        self.output = output
-        self.delta = delta
+            self.weight.append(uniform(-2, 2))
+        self.output = 0
+        self.delta = 0
         self.error = 0
-        self.lr = 0.5
+        self.lr = lr
         self.lastInput = []
 
     def feed(self, someInputVariables):
@@ -55,7 +55,17 @@ class Neuron(object):
     def getWeights(self):
         return self.weight
 
+    def getLr(self):
+        return self.lr
+
+    def getLastInputs(self):
+        return self.lastInput
+
     def update(self):
         for i in range(len(self.weight)):
-            self.weight[i] += self.lr * self.delta * self.lastInput[i]
-        self.bias += self.lr * self.delta
+            self.weight[i] += self.getLr() * self.getDelta() * self.getLastInputs()[i]
+        self.bias += self.getLr() * self.getDelta()
+
+    def custom(self, weightList, bias):
+        self.weight = weightList
+        self.bias = bias

@@ -2,7 +2,7 @@ from Network.NeuralLayer import NeuralLayer
 
 class NeuralNetwork:
 
-    def __init__(self, nInputs, nNeurCapas):
+    def __init__(self, nInputs, nNeurCapas): # 5 y [3,2,1]
         self.Layers = []
         self.output = 0
         self.delta = 0
@@ -28,14 +28,14 @@ class NeuralNetwork:
     # errors = newArrayList();
     # Error = sum(abs(expectedOutput - realOutput)^2)
     # sum un numero n de ejemplos dados a la red y errors.add(error)
-    def train(self, trainingInputs, expOut):
+    def train(self, trainingInputs, expOut): # [[1,2,3], ...] [[1], [2], [3], ..]
         self.feed(trainingInputs)
-        actualLayer = len(self.Layers) - 1
+        actualLayer = len(self.Layers) - 1   # 3 -1 = 2
         nextLayer = 0
         while actualLayer >= 0:
-            if actualLayer == len(self.Layers) - 1:
+            if actualLayer == len(self.Layers) - 1: #ultima
                 self.Layers[actualLayer].setUpLastLayer(expOut)
-                self.Layers[actualLayer].resetNeuronErrors()
+                # self.Layers[actualLayer].resetNeuronErrors()
                 nextLayer = actualLayer
                 actualLayer -= 1
             else:
@@ -52,3 +52,9 @@ class NeuralNetwork:
 
     def getOutput(self):
         return self.output
+
+    def getLayer(self):
+        return self.Layers
+
+    def custom(self, layerList):
+        self.Layers = layerList
