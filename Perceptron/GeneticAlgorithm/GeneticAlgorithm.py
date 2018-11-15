@@ -1,13 +1,16 @@
 from random import *
+import time
 
 class GeneticAlgorithm:
 
-    def __init__(self, N, nBits, sequence, mixingPoint, mutRate=0.01):
+    def __init__(self, sequence,k=30 , N=40, nBits=9, mutRate=0.01):
         self.N = N
+        self.k = k
+        self.nBits = nBits
         self.sequence = sequence
-        self.mixingPoint = mixingPoint
         self.mutRate = mutRate
-        self.pop = self.population(self.N, nBits)
+        self.pop = self.population(self.N, self.nBits)
+        self.run(self.pop, self.k)
 
 
     def population(self, N, nBits):
@@ -61,13 +64,27 @@ class GeneticAlgorithm:
         mejor = []
         fitmejor = 0
         fitmax = self.fitness(self.sequence)
-        print("Operando sobre Generacion: "+ str(generacion))
+        ti = time.time()
         while True:
-            for i in inputs:
+            print("Operando sobre Generacion: " + str(generacion))
+            for i in runinputs:
                 if self.fitness(i) > fitmejor:
                     mejor = i
                     fitmejor = self.fitness(i)
             if fitmax == fitmejor:
                 print("Solucion encontrada en Generacion: " + str(generacion))
                 print("Mejor: " + str(mejor))
-            gen = self.reproduction(inputs, k)
+                break
+            breakcount+=1
+            if breakcount == 100:
+                print("Se llego al limite de 100 generaciones, solucion no encontrada.")
+                break
+            gen = self.reproduction(runinputs, k)
+            generacion +=1
+            runinputs = gen
+            print("Mejor: " +str(mejor))
+        tf = time.time()
+        print("Tiempo de ejecucion: "+ str(tf - ti))
+
+if __name__ == '__main__':
+    GeneticAlgorithm([1,0,1,0,1,0,1,1,0])

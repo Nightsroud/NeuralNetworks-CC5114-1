@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8abbfa9-be6f-4c27-82f1-15a3ebbdce79" name="Default" comment="Clase 13 Genetic Algorithm:&#10;Inicio algoritmo genetico, falta terminar clase para identificar una secuencia de bits.">
-      <change afterPath="$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticAlgorithm/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network/NeuralLayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network/NeuralLayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/RedesNeuronales$Grafico.coverage" NAME="Grafico Coverage Results" MODIFIED="1539114462050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Percept" />
+    <SUITE FILE_PATH="coverage/RedesNeuronales$GeneticAlgorithm.coverage" NAME="GeneticAlgorithm Coverage Results" MODIFIED="1542317947005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticAlgorithm" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$Perceptrons.coverage" NAME="Perceptrons Coverage Results" MODIFIED="1538497131552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Percept" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$Unittests_in_Test_py.coverage" NAME="Unittests in Test.py Coverage Results" MODIFIED="1538497886263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$FibonacciS.coverage" NAME="FibonacciS Coverage Results" MODIFIED="1540754417689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
@@ -39,7 +38,7 @@
     <session id="1481677083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -56,9 +55,10 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -67,7 +67,7 @@
           <entry key="Python Console" value="1360" />
           <entry key="csv" value="43" />
           <entry key="dummy" value="43" />
-          <entry key="py" value="17200" />
+          <entry key="py" value="17673" />
           <entry key="txt" value="653" />
         </counts>
       </usages-collector>
@@ -75,7 +75,7 @@
         <counts>
           <entry key="CSV" value="43" />
           <entry key="PLAIN_TEXT" value="696" />
-          <entry key="Python" value="18744" />
+          <entry key="Python" value="19217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataSet/dataSets-Tests/dataSet-ttest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
+            <state relative-caret-position="-546">
               <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
             </state>
           </provider>
@@ -106,56 +106,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="140">
+              <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
               <folding>
-                <marker date="1542250475935" expanded="true" signature="45:46" ph="..." />
-                <marker date="1542250475935" expanded="true" signature="45:51" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Network/NeuralNetwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-              <folding>
-                <marker date="1541689282488" expanded="true" signature="65:66" ph="..." />
-                <marker date="1541689282488" expanded="true" signature="391:397" ph="..." />
-                <marker date="1541689282488" expanded="true" signature="1039:1200" ph="..." />
-                <marker date="1541689282488" expanded="true" signature="1040:1046" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Network/NeuralLayer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <marker date="1541689282554" expanded="true" signature="54:55" ph="..." />
-                <marker date="1541689282554" expanded="true" signature="99:266" ph="..." />
-                <marker date="1541689282554" expanded="true" signature="1188:1197" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Network/Neuron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1541688950817" expanded="true" signature="73:74" ph="..." />
-                <marker date="1541688950817" expanded="true" signature="959:995" ph="..." />
-                <marker date="1541688950817" expanded="true" signature="1323:1329" ph="..." />
-                <marker date="1541688950817" expanded="true" signature="1503:1539" ph="..." />
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1542317106736" expanded="true" signature="57:58" ph="..." />
+                <marker date="1542317106736" expanded="true" signature="57:63" ph="..." />
               </folding>
             </state>
           </provider>
@@ -230,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +228,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Perceptrons">
+  <component name="RunManager" selected="Python.GeneticAlgorithm">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="Perceptron" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,7 +347,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Grafico" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GeneticAlgorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RedesNeuronales" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,12 +355,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Percept" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GeneticAlgorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Percept/Grafico.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -589,19 +545,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Perceptrons" />
-      <item itemvalue="Python.Grafico" />
       <item itemvalue="Python.XorNetwork" />
       <item itemvalue="Python.FibonacciS" />
       <item itemvalue="Python.DataSetNetwork" />
       <item itemvalue="Python tests.Unittests in dataSet-ttest.py" />
+      <item itemvalue="Python.GeneticAlgorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GeneticAlgorithm" />
         <item itemvalue="Python tests.Unittests in dataSet-ttest.py" />
         <item itemvalue="Python.DataSetNetwork" />
         <item itemvalue="Python.DataSetNetwork" />
         <item itemvalue="Python.FibonacciS" />
-        <item itemvalue="Python.XorNetwork" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541691914290</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Clase 13 Genetic Algorithm:&#10;Inicio algoritmo genetico, falta terminar clase para identificar una secuencia de bits.">
+      <created>1542250862265</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542250862265</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -732,19 +695,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37065053" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37670198" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48033282" weight="0.42307693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48033282" visible="true" weight="0.42307693" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51966715" side_tool="true" weight="0.42307693" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="8" sideWeight="0.47655067" visible="true" weight="0.40615386" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.47655067" weight="0.40615386" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" weight="0.3276923" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287037" />
@@ -871,26 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/dataSets-Tests/dataSet-ttest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Network/NeuralNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-          <folding>
-            <marker date="1541689282488" expanded="true" signature="65:66" ph="..." />
-            <marker date="1541689282488" expanded="true" signature="391:397" ph="..." />
-            <marker date="1541689282488" expanded="true" signature="1039:1200" ph="..." />
-            <marker date="1541689282488" expanded="true" signature="1040:1046" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Network/NeuralLayer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -917,13 +861,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Network/NeuralNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <marker date="1541689282488" expanded="true" signature="65:66" ph="..." />
+            <marker date="1541689282488" expanded="true" signature="391:397" ph="..." />
+            <marker date="1541689282488" expanded="true" signature="1039:1200" ph="..." />
+            <marker date="1541689282488" expanded="true" signature="1040:1046" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/dataSets-Tests/dataSet-ttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="140">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
           <folding>
-            <marker date="1542250475935" expanded="true" signature="45:46" ph="..." />
-            <marker date="1542250475935" expanded="true" signature="45:51" ph="..." />
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1542317106736" expanded="true" signature="57:58" ph="..." />
+            <marker date="1542317106736" expanded="true" signature="57:63" ph="..." />
           </folding>
         </state>
       </provider>
