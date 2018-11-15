@@ -47,3 +47,6 @@ class NeuralLayer:
     def layerTraining(self):
         for i in range(len(self.neurons)):
             self.neurons[i].update()
+
+    def custom(self, neuronList):
+        self.neurons = neuronList
