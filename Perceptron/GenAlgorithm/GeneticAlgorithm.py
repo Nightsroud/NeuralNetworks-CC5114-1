@@ -3,21 +3,21 @@ import time
 
 class GeneticAlgorithm:
 
-    def __init__(self, sequence,k=30 , N=40, nBits=9, mutRate=0.01):
+    def __init__(self, sequence, k=30, N=40, size=9, mutRate=0.01):
         self.N = N
         self.k = k
-        self.nBits = nBits
+        self.size = size
         self.sequence = sequence
         self.mutRate = mutRate
-        self.pop = self.population(self.N, self.nBits)
+        self.pop = self.population(self.N, self.size)
         self.run(self.pop, self.k)
 
 
-    def population(self, N, nBits):
+    def population(self, N, size):
         bitlist = []
         for i in range(N):
             bit =[]
-            for j in range(nBits):
+            for j in range(size):
                 bit.append(randint(0, 1))
             bitlist.append(bit)
         return bitlist
@@ -39,7 +39,6 @@ class GeneticAlgorithm:
         return best
 
     def reproduction(self, inputs, k):
-
         parents  = []
         for i in range(len(inputs)*2):
             parents.append(self.tournament_selection(inputs, k))
