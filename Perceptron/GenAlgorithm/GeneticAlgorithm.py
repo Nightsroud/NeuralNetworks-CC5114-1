@@ -65,16 +65,23 @@ class GeneticAlgorithm:
         fitmax = self.fitness(self.sequence)
         ti = time.time()
         while True:
+            mejorb = mejor
             print("Operando sobre Generacion: " + str(generacion))
             for i in runinputs:
                 if self.fitness(i) > fitmejor:
                     mejor = i
                     fitmejor = self.fitness(i)
+
             if fitmax == fitmejor:
                 print("Solucion encontrada en Generacion: " + str(generacion))
                 print("Mejor: " + str(mejor))
                 break
-            breakcount+=1
+
+            if mejorb == mejor:
+                breakcount+=1
+            else:
+                breakcount = 0
+
             if breakcount == 100:
                 print("Se llego al limite de 100 generaciones, solucion no encontrada.")
                 break

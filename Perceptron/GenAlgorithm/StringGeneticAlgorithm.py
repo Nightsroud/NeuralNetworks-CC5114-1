@@ -4,7 +4,7 @@ import string
 
 class sGeneticAlgorithm(GeneticAlgorithm):
 
-    def __init__(self, sequence, k=20, N=40, size=3, mutRate=0.01):
+    def __init__(self, sequence, k=750, N=1000, size=3, mutRate=0.01):
         self.strings = string.ascii_lowercase
         super().__init__(sequence, k, N, size, mutRate)
 
@@ -19,7 +19,7 @@ class sGeneticAlgorithm(GeneticAlgorithm):
 
     def reproduction(self, inputs, k):
         parents = []
-        for i in range(len(inputs) * 2):
+        for i in range(2*len(inputs)):
             parents.append(self.tournament_selection(inputs, k))
 
         newgen = []
@@ -32,7 +32,7 @@ class sGeneticAlgorithm(GeneticAlgorithm):
                 if random() < self.mutRate:
                     paux[i] = choice(self.strings)
             newgen.append(paux)
-
+            shuffle(newgen)
             return newgen
 
 if __name__ == '__main__':
