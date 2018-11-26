@@ -62,7 +62,7 @@ class GeneticAlgorithm:
         generacion = 0
         mejor = []
         fitmejor = 0
-        fitmax = self.fitness(self.sequence)
+        fitmax = self.size
         ti = time.time()
         while True:
             mejorb = mejor
@@ -88,6 +88,7 @@ class GeneticAlgorithm:
             gen = self.reproduction(runinputs, k)
             generacion +=1
             runinputs = gen
+            print("Fitness: "+str(fitmejor))
             print("Mejor: " +str(mejor))
         tf = time.time()
         print("Tiempo de ejecucion: "+ str(tf - ti))
