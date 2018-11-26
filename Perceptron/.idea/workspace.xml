@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8abbfa9-be6f-4c27-82f1-15a3ebbdce79" name="Default" comment="Clase 13 Genetic Algorithm:&#10;Algoritmo identificador de strings terminado.">
+    <list default="true" id="f8abbfa9-be6f-4c27-82f1-15a3ebbdce79" name="Default" comment="Clase 13 Genetic Algorithm:&#10;Tarea 2 terminada.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenAlgorithm/Nqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenAlgorithm/Nqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,15 +75,15 @@
           <entry key="Python Console" value="1577" />
           <entry key="csv" value="43" />
           <entry key="dummy" value="59" />
-          <entry key="py" value="19159" />
-          <entry key="txt" value="779" />
+          <entry key="py" value="19164" />
+          <entry key="txt" value="797" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="43" />
-          <entry key="PLAIN_TEXT" value="838" />
-          <entry key="Python" value="20920" />
+          <entry key="PLAIN_TEXT" value="856" />
+          <entry key="Python" value="20925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,43 +102,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1543273507146" expanded="true" signature="57:58" ph="..." />
+                <marker date="1543273507146" expanded="true" signature="57:63" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1542657654334" expanded="true" signature="137:138" ph="..." />
-                <marker date="1542657654334" expanded="true" signature="137:143" ph="..." />
+                <marker date="1543273507253" expanded="true" signature="137:138" ph="..." />
+                <marker date="1543273507253" expanded="true" signature="137:143" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1543261299863" expanded="true" signature="57:58" ph="..." />
-                <marker date="1543261299863" expanded="true" signature="57:63" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GenAlgorithm/Nqueen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state relative-caret-position="-430">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1543261775551" expanded="true" signature="127:128" ph="..." />
-                <marker date="1543261775551" expanded="true" signature="127:133" ph="..." />
+                <marker date="1543273507203" expanded="true" signature="127:128" ph="..." />
+                <marker date="1543273507203" expanded="true" signature="127:133" ph="..." />
               </folding>
             </state>
           </provider>
@@ -192,8 +193,8 @@
         <option value="$PROJECT_DIR$/DataSet/dataSets-Tests/dataSet-ttest.py" />
         <option value="$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GeneticAlgorithm/StringGeneticAlgorithm.py" />
-        <option value="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" />
+        <option value="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GenAlgorithm/Nqueen.py" />
       </list>
     </option>
@@ -215,7 +216,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RedesNeuronales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RedesNeuronales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
+              <item name="GenAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -663,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542660439564</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Clase 13 Genetic Algorithm:&#10;Tarea 2 terminada.">
+      <created>1543271502746</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543271502746</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -709,13 +735,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.39485627" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48033282" visible="true" weight="0.45692307" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48033282" visible="true" weight="0.12307692" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -777,7 +804,8 @@
     <MESSAGE value="Clase 13 Genetic Algorithm:&#10;Algoritmo que identifica una secuencia de bits terminado, falta identificar palabra." />
     <MESSAGE value="Clase 13 Genetic Algorithm:&#10;Algoritmo identificador de strings hecho, falta retocar." />
     <MESSAGE value="Clase 13 Genetic Algorithm:&#10;Algoritmo identificador de strings terminado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 13 Genetic Algorithm:&#10;Algoritmo identificador de strings terminado." />
+    <MESSAGE value="Clase 13 Genetic Algorithm:&#10;Tarea 2 terminada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 13 Genetic Algorithm:&#10;Tarea 2 terminada." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
@@ -904,36 +932,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1542657654334" expanded="true" signature="137:138" ph="..." />
-            <marker date="1542657654334" expanded="true" signature="137:143" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <marker date="1543261299863" expanded="true" signature="57:58" ph="..." />
-            <marker date="1543261299863" expanded="true" signature="57:63" ph="..." />
+            <marker date="1543273507253" expanded="true" signature="137:138" ph="..." />
+            <marker date="1543273507253" expanded="true" signature="137:143" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GenAlgorithm/Nqueen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="-430">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <marker date="1543261775551" expanded="true" signature="127:128" ph="..." />
-            <marker date="1543261775551" expanded="true" signature="127:133" ph="..." />
+            <marker date="1543273507203" expanded="true" signature="127:128" ph="..." />
+            <marker date="1543273507203" expanded="true" signature="127:133" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1543273507146" expanded="true" signature="57:58" ph="..." />
+            <marker date="1543273507146" expanded="true" signature="57:63" ph="..." />
           </folding>
         </state>
       </provider>

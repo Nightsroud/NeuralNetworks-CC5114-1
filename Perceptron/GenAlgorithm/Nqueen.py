@@ -3,8 +3,8 @@ from random import *
 
 class QueenGeneticAlgorithm(GeneticAlgorithm):
 
-    def __init__(self, sequence, k=75, N=100, size=4, mutRate=0.01):
-        super().__init__(sequence, k, N, size, mutRate)
+    def __init__(self, sequence, size=4, k=75, N=100, mutRate=0.01):
+        super().__init__(sequence, size, k, N, mutRate)
 
     def population(self, N, size):
         queenlist = []

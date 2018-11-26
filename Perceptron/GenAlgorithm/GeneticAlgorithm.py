@@ -3,7 +3,7 @@ import time
 
 class GeneticAlgorithm:
 
-    def __init__(self, sequence, k=30, N=40, size=9, mutRate=0.01):
+    def __init__(self, sequence, size=9, k=30, N=40, mutRate=0.01):
         self.N = N
         self.k = k
         self.size = size

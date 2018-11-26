@@ -4,9 +4,9 @@ import string
 
 class sGeneticAlgorithm(GeneticAlgorithm):
 
-    def __init__(self, sequence, k=750, N=1000, size=3, mutRate=0.01):
+    def __init__(self, sequence, size=3, k=750, N=1000, mutRate=0.01):
         self.strings = string.ascii_lowercase
-        super().__init__(sequence, k, N, size, mutRate)
+        super().__init__(sequence,  size, k, N, mutRate)
 
     def population(self, N, size):
         strlist = []
