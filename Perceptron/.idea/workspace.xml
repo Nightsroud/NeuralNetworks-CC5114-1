@@ -4,8 +4,6 @@
     <list default="true" id="f8abbfa9-be6f-4c27-82f1-15a3ebbdce79" name="Default" comment="Clase 13 Genetic Algorithm:&#10;Tarea 2 terminada.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenAlgorithm/Nqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenAlgorithm/Nqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +12,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RedesNeuronales$StringGeneticAlgorithm__1_.coverage" NAME="StringGeneticAlgorithm (1) Coverage Results" MODIFIED="1542658436942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenAlgorithm" />
-    <SUITE FILE_PATH="coverage/RedesNeuronales$GeneticAlgorithm__1_.coverage" NAME="GeneticAlgorithm (1) Coverage Results" MODIFIED="1542828861439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenAlgorithm" />
+    <SUITE FILE_PATH="coverage/RedesNeuronales$GeneticAlgorithm__1_.coverage" NAME="GeneticAlgorithm (1) Coverage Results" MODIFIED="1543331237566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenAlgorithm" />
+    <SUITE FILE_PATH="coverage/RedesNeuronales$StringGeneticAlgorithm__1_.coverage" NAME="StringGeneticAlgorithm (1) Coverage Results" MODIFIED="1543331356717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenAlgorithm" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$Grafico.coverage" NAME="Grafico Coverage Results" MODIFIED="1539114462050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Percept" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$GeneticAlgorithm.coverage" NAME="GeneticAlgorithm Coverage Results" MODIFIED="1542317947005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticAlgorithm" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$StringGeneticAlgorithm.coverage" NAME="StringGeneticAlgorithm Coverage Results" MODIFIED="1542569197312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticAlgorithm" />
@@ -24,7 +22,7 @@
     <SUITE FILE_PATH="coverage/RedesNeuronales$FibonacciS.coverage" NAME="FibonacciS Coverage Results" MODIFIED="1540754417689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$XorNetwork.coverage" NAME="XorNetwork Coverage Results" MODIFIED="1540480843453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
     <SUITE FILE_PATH="coverage/RedesNeuronales$Unittests_in_dataSet_test_py.coverage" NAME="Unittests in dataSet-ttest.py Coverage Results" MODIFIED="1541691891658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataSet/dataSets-Tests" />
-    <SUITE FILE_PATH="coverage/RedesNeuronales$Nqueen.coverage" NAME="Nqueen Coverage Results" MODIFIED="1543261892110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenAlgorithm" />
+    <SUITE FILE_PATH="coverage/RedesNeuronales$Nqueen.coverage" NAME="Nqueen Coverage Results" MODIFIED="1543331435548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenAlgorithm" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,7 +42,7 @@
     <session id="1481677083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -52,7 +50,7 @@
           <entry key="project.open.time.36" value="3" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.40" value="3" />
           <entry key="project.open.time.41" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="2" />
@@ -66,7 +64,7 @@
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -75,7 +73,7 @@
           <entry key="Python Console" value="1577" />
           <entry key="csv" value="43" />
           <entry key="dummy" value="59" />
-          <entry key="py" value="19164" />
+          <entry key="py" value="19401" />
           <entry key="txt" value="797" />
         </counts>
       </usages-collector>
@@ -83,34 +81,34 @@
         <counts>
           <entry key="CSV" value="43" />
           <entry key="PLAIN_TEXT" value="856" />
-          <entry key="Python" value="20925" />
+          <entry key="Python" value="21162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="7" />
-          <entry key="py" value="36" />
+          <entry key="py" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="7" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="263">
+              <caret line="115" column="18" lean-forward="true" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-                <marker date="1543273507146" expanded="true" signature="57:58" ph="..." />
-                <marker date="1543273507146" expanded="true" signature="57:63" ph="..." />
+                <marker date="1543331237434" expanded="true" signature="89:90" ph="..." />
+                <marker date="1543331237434" expanded="true" signature="89:95" ph="..." />
               </folding>
             </state>
           </provider>
@@ -119,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="-266">
               <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -130,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GenAlgorithm/Nqueen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="125">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <marker date="1543273507203" expanded="true" signature="127:128" ph="..." />
@@ -193,9 +191,9 @@
         <option value="$PROJECT_DIR$/DataSet/dataSets-Tests/dataSet-ttest.py" />
         <option value="$PROJECT_DIR$/GeneticAlgorithm/GeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GeneticAlgorithm/StringGeneticAlgorithm.py" />
-        <option value="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GenAlgorithm/Nqueen.py" />
+        <option value="$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py" />
       </list>
     </option>
   </component>
@@ -217,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,8 +564,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Nqueen" />
-        <item itemvalue="Python.GeneticAlgorithm (1)" />
         <item itemvalue="Python.StringGeneticAlgorithm (1)" />
+        <item itemvalue="Python.GeneticAlgorithm (1)" />
         <item itemvalue="Python.StringGeneticAlgorithm" />
         <item itemvalue="Python.GeneticAlgorithm" />
       </list>
@@ -689,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543271502746</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Clase 13 Genetic Algorithm:&#10;Tarea 2 terminada.">
+      <created>1543273522004</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543273522004</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -735,14 +740,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39485627" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39485627" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48033282" visible="true" weight="0.12307692" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48033282" visible="true" weight="0.39384615" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -757,7 +761,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.4515885" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.4515885" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.39485627" />
@@ -909,13 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/DataSetNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataSet/dataSets-Tests/dataSet-ttest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -930,9 +927,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/DataSetNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="115" column="18" lean-forward="true" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1543331237434" expanded="true" signature="89:90" ph="..." />
+            <marker date="1543331237434" expanded="true" signature="89:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GenAlgorithm/StringGeneticAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-266">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -944,24 +963,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GenAlgorithm/Nqueen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="125">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <marker date="1543273507203" expanded="true" signature="127:128" ph="..." />
             <marker date="1543273507203" expanded="true" signature="127:133" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenAlgorithm/GeneticAlgorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <marker date="1543273507146" expanded="true" signature="57:58" ph="..." />
-            <marker date="1543273507146" expanded="true" signature="57:63" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,6 @@
 from random import *
 import time
+import matplotlib.pyplot as plt
 
 class GeneticAlgorithm:
 
@@ -57,6 +58,9 @@ class GeneticAlgorithm:
         return newgen
 
     def run(self, inputs, k):
+        xgen = []
+        ybest = []
+        yprom = []
         runinputs = inputs
         breakcount = 0
         generacion = 0
@@ -66,11 +70,18 @@ class GeneticAlgorithm:
         ti = time.time()
         while True:
             mejorb = mejor
+            prom = 0
             print("Operando sobre Generacion: " + str(generacion))
+
             for i in runinputs:
+                prom += self.fitness(i)
                 if self.fitness(i) > fitmejor:
                     mejor = i
                     fitmejor = self.fitness(i)
+            prom /= len(runinputs)
+            xgen.append(generacion)
+            ybest.append(fitmejor)
+            yprom.append(prom)
 
             if fitmax == fitmejor:
                 print("Solucion encontrada en Generacion: " + str(generacion))
@@ -85,6 +96,7 @@ class GeneticAlgorithm:
             if breakcount == 100:
                 print("Se llego al limite de 100 generaciones, solucion no encontrada.")
                 break
+
             gen = self.reproduction(runinputs, k)
             generacion +=1
             runinputs = gen
@@ -92,6 +104,16 @@ class GeneticAlgorithm:
             print("Mejor: " +str(mejor))
         tf = time.time()
         print("Tiempo de ejecucion: "+ str(tf - ti))
+        plt.figure(1)
+        plt.subplot(211)
+        plt.xlabel("Generacion")
+        plt.ylabel("Mejor por Generacion")
+        plt.plot(xgen, ybest, 'b-')
+        plt.subplot(212)
+        plt.xlabel("Generacion")
+        plt.ylabel("Promedio Fitness")
+        plt.plot(xgen, yprom, 'r-')
+        plt.show()
 
 if __name__ == '__main__':
     GeneticAlgorithm([1,0,1,0,1,0,1,1,0])
