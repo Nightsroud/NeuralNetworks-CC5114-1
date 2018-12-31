@@ -7,8 +7,10 @@ import matplotlib.pyplot as plt
 
 class TreeAlgorithm(GeneticAlgorithm):
 
-    def __init__(self, sequence, size=2, k=750, N=1000, mutRate=0.01):
-        self.digits = string.digits[1:]
+    def __init__(self, sequence, size=2, k=75, N=100, mutRate=0.01):
+        self.digits = []
+        for i in range(10):
+            self.digits.append(randint(1,100))
         self.operators = '+-*/'
         super().__init__(sequence,  size, k, N, mutRate)
 
@@ -24,8 +26,7 @@ class TreeAlgorithm(GeneticAlgorithm):
             arbolito = tree(choice(self.operators), self.MakeTree(size-1), self.MakeTree(size-1))
             return arbolito
         else:
-            arbolito = tree(choice(self.digits))
-            return arbolito
+            return tree(choice(self.digits))
 
     def fitness(self, input):
         return input.evaluate()
@@ -63,10 +64,12 @@ class TreeAlgorithm(GeneticAlgorithm):
 
     def replaceSide(self, pr, ps):
         if random() < 0.5:
-            pa = pr.setLeft(self.selectSide(ps))
+            pa = pr
+            pa.setLeft(self.selectSide(ps))
             return pa
         else:
-            pb = pr.setRight(self.selectSide(ps))
+            pb = pr
+            pb.setRight(self.selectSide(ps))
             return pb
 
     def selectSide(self, ps):
@@ -100,8 +103,7 @@ class TreeAlgorithm(GeneticAlgorithm):
             print("Operando sobre Generacion: " + str(generacion))
 
             for i in runinputs:
-                print(i.calculate())
-                fit = self.fitness(i)
+                fit = int(self.fitness(i))
                 prom += fit
                 if abs(fit - fitmax) <= fitmejor:
                     mejor = i
@@ -144,4 +146,4 @@ class TreeAlgorithm(GeneticAlgorithm):
         plt.show()
 
 if __name__ == '__main__':
-    TreeAlgorithm(5)
+    TreeAlgorithm(50)

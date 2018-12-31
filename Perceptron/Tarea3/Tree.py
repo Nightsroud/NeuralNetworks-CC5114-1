@@ -6,13 +6,13 @@ class tree:
         self.right = right
 
     def isLeaf(self):
-        if self.left is None:
+        if self.left is None and self.right is None:
             return True
         else:
             return False
 
     def calculate(self):
-        if self.left is None:
+        if self.left is None and self.right is None:
             return self.value
         else:
             return str(self.left.calculate())+str(self.value)+str(self.right.calculate())
@@ -39,6 +39,3 @@ class tree:
 
     def getValue(self):
         return self.value
-if __name__ == '__main__':
-    f = tree(0)
-    print(f.isLeaf())
